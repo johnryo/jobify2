@@ -1,6 +1,5 @@
 import StyledWrapper from '../assets/wrappers/StatItem';
 
-// eslint-disable-next-line react/prop-types
 const StatsItem = ({ count, title, icon, color, bgc }) => {
   return (
     <StyledWrapper color={color} bgc={bgc}>

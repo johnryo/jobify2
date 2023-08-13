@@ -8,7 +8,6 @@ import {
   Tooltip,
 } from 'recharts';
 
-// eslint-disable-next-line react/prop-types
 const AreaChartComponent = ({ data }) => {
   return (
     <ResponsiveContainer width='100%' height={300}>

@@ -1,6 +1,5 @@
 import StyledWrapper from '../assets/wrappers/JobInfo';
 
-// eslint-disable-next-line react/prop-types
 const JobInfo = ({ icon, text }) => {
   return (
     <StyledWrapper>

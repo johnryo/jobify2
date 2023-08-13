@@ -7,7 +7,7 @@ const PageBtnContainer = () => {
   const {
     data: { numOfPages, currentPage },
   } = useAllJobsContext();
-  // eslint-disable-next-line no-unused-vars
+
   const pages = Array.from({ length: numOfPages }, (_, index) => {
     return index + 1;
   });

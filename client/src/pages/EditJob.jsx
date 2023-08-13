@@ -1,4 +1,3 @@
-/* eslint-disable react-refresh/only-export-components */
 import { Form, redirect, useLoaderData } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
 import { toast } from 'react-toastify';

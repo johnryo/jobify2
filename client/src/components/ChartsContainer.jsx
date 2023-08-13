@@ -3,7 +3,6 @@ import BarChart from './BarChart';
 import AreaChart from './AreaChart';
 import StyledWrapper from '../assets/wrappers/ChartsContainer';
 
-// eslint-disable-next-line react/prop-types
 const ChartsContainer = ({ data }) => {
   const [barChart, setBarChart] = useState(true);
 

@@ -5,7 +5,6 @@ import customFetch from '../utils/customFetch';
 import { StatItem } from '../components';
 import StyledWrapper from '../assets/wrappers/StatsContainer';
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const loader = async () => {
   try {
     const response = await customFetch.get('/users/admin/app-stats');

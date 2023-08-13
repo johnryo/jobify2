@@ -8,7 +8,6 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 
-// eslint-disable-next-line react/prop-types
 const BarChartComponent = ({ data }) => {
   return (
     <ResponsiveContainer width='100%' height={300}>

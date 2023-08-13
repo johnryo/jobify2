@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { Link, Form } from 'react-router-dom';
 import { FaLocationArrow, FaBriefcase, FaCalendarAlt } from 'react-icons/fa';
 import day from 'dayjs';

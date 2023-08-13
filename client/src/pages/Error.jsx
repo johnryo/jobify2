@@ -11,8 +11,7 @@ const Error = () => {
         <div>
           <img src={img} alt='Not found' />
           <h3>{error.statusText}</h3>
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
-          <p>We can't seem to find the page you are looking for.</p>
+          <p>The page you are looking for cannot be found.</p>
           <Link to='/dashboard'>Back Home</Link>
         </div>
       </StyledWrapper>

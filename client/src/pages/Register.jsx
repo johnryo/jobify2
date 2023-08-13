@@ -4,7 +4,6 @@ import { FormRow, Logo, SubmitBtn } from '../components';
 import customFetch from '../utils/customFetch';
 import StyledWrapper from '../assets/wrappers/RegisterAndLoginPage';
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const action = async ({ request }) => {
   const formData = await request.formData();
   const data = Object.fromEntries(formData);

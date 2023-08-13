@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { FaSuitcaseRolling, FaCalendarCheck, FaBug } from 'react-icons/fa';
 import StatItem from './StatItem';
 import StyledWrapper from '../assets/wrappers/StatsContainer';
