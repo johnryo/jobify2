@@ -8,6 +8,6 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <>
     <App />
-    <ToastContainer position='top-center' />
+    <ToastContainer position='top-center' autoClose={2500} />
   </>
 );
